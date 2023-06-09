@@ -11,7 +11,7 @@ function App() {
         <Navbar />
           <Routes>
             <Route path="" element={<Main />} exact/>
-            <Route path=":name" element={<Pokemon />} exact/>
+            <Route path="/:name" element={<Pokemon />} exact/>
           </Routes>
       </BrowserRouter>
   );
