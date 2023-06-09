@@ -11,3 +11,16 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.pokeLink {
+  background: linear-gradient(0deg, rgba(205,237,6,1) 0%, rgba(242,7,7,1) 48%, rgba(255,244,0,1) 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.pokeLink:is(:hover, :focus) {
+  font-weight: bold;
+  transition: 0.3s ease-in-out;
+  text-shadow: 6px 6px 12px #FF0000;
+}
