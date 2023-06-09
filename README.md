@@ -14,6 +14,8 @@ Setup instructions:
 
 24 cards featuring various Pokemon are displayed on the landing page, along with a pagination with 36 further pages for application navigation. You can use the name search to choose your favorite Pokemon and use the ascending or descending order options. You can access a pokemon's information page by clicking on it.
 
+### Demo 
+[pokeApp](https://andjelijastankovic.github.io/pokeApp)
 ### Screenshots
 ![landingPage](/public/pokemonAppLandingPage.jpg)
 
